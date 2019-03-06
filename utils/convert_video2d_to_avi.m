@@ -25,7 +25,11 @@ function convert_video2d_to_avi(I,nFrames,vidHeight,vidWidth,filename)
   end
   
   disp(['Saving results at: ' filename]);
-  movie2avi(movobj_I, filename, 'compression', 'None');
+  %movie2avi(movobj_I, filename, 'compression', 'None'); %obsolete in
+  %Matlab 2016b
+  v = VideoWriter(filename, 'Uncompressed AVI');
+  open(v);   writeVideo(v, movobj_I); close(v);
+  
   disp('OK');
   
   %warning('on','all');

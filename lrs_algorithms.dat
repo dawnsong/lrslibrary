@@ -21,6 +21,7 @@ RPCA | RegL1-ALM | Low-Rank Matrix Approximation under Robust L1-Norm (Zheng et 
 RPCA | GA | Grassmann Average (Hauberg et al. 2014) | 1
 RPCA | GM | Grassmann Median (Hauberg et al. 2014) | 1
 RPCA | TGA | Trimmed Grassmann Average (Hauberg et al. 2014) | 1
+RPCA | xL1PCA | Intuitive/1-iteration Grassmann Average (Xiaowei Song et al. 2018) | 1
 RPCA | STOC-RPCA | Online Robust PCA via Stochastic Optimization (Feng et al. 2013) | 1
 RPCA | MoG-RPCA | Mixture of Gaussians RPCA (Zhao et al. 2014) | 2
 RPCA | noncvxRPCA | Robust PCA via Nonconvex Rank Approximation (Kang et al. 2015) | 1
